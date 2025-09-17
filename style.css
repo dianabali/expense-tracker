@@ -8,8 +8,25 @@
     box-sizing: border-box;
 }
 
+nav {
+    background-color: #601a69;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 2px;
+}
+
+nav h2 {
+    color: #fff;
+    margin: 0;
+    font-size: 33px;
+}
+
 body {
-    background-color: antiquewhite;
+    background-color: #fdeaff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,6 +64,7 @@ h4 {
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
+    border-radius: 30px;
 }
 
 .inc-exp-container > div {
@@ -92,9 +110,13 @@ input[type="text"], input[type="number"] {
     margin: 5px 0;
 }
 
+input::placeholder {
+  color: #a7a7a7;
+  font-size: 14px;
+}
+
 .btn {
-    background-color: #e09565;
-    box-shadow: var(--box-shadow);
+    background-color: #601a69;
     color: white;
     border: 0;
     display: block;
@@ -103,6 +125,7 @@ input[type="text"], input[type="number"] {
     padding: 10px;
     width: 100%;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .btn:focus, .delete-btn:focus {
@@ -124,6 +147,7 @@ input[type="text"], input[type="number"] {
     position: relative;
     padding: 10px;
     margin: 10px 0;
+    border-radius: 10px;
 }
 
 .list li.plus {
@@ -135,7 +159,7 @@ input[type="text"], input[type="number"] {
 }
 
 .delete-btn {
-    background-color: #e09565;
+    background-color: #601a69;
     border: 0;
     color: white;
     font-size: 20px;
