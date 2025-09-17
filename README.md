@@ -14,7 +14,7 @@ A simple **Expense Tracker** built with HTML, CSS, and JavaScript. This app help
 
 ## Installation guide
 1. Clone or download this repository: ``git clone https://github.com/dianabali/expense-tracker.git``
-2. Open ``index.html`` in zour browser.
+2. Open ``index.html`` in your browser.
 3. Start adding transactions.
 
 ## Images
